@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cadastro/Login</title>
+  </head>
+  <body>
+    <header>
+      <nav class="menu">
+        <a href="index.html" class="logo"></a>
+        <ul>
+          <li><a href="index.html" class="ativo">Home</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+      <div id="corpo-form">
+      <h1>Cadastrar</h1>
+      <form id="registerForm" method="POST">
+        <input type="text" id="nome" name="nome" placeholder="Nome Completo" maxlength="30" />
+        <input type="email" id="email" name="email" placeholder="E-mail" maxlength="40" />
+        <input type="text" id="telefone" name="telefone" placeholder="Telefone" maxlength="30" />
+        <input type="password" id="senha" name="senha" placeholder="Senha" maxlength="15" />
+        <input type="password" id="confsenha" name="confsenha" placeholder="Confirmar Senha" />
+        <input type="submit" value="Cadastrar" />
+       </form>
+       <!-- <div id="message"></div> -->
+    </div>
+    <script src="cadastrar.js"></script>
+  </body>
+    </header>
+    
+</html>
