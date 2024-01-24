@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galeria De Imagens</title>
+  </head>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      height: 100vh;
+      width: 100vw;
+    }
+    input{
+      display: none;
+    }
+  </style>
+  <body style="background-color: rgb(108, 220, 220)">
+    <div class="container">
+      <header>
+        <nav class="menu">
+          <a href="index.html" class="logo"></a>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="galeria.html" class="ativo">Galeria</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+        </div>
+    <div class="conteudo">
+      <div class="slides">
+        <input type="radio" name="slide" id="slide1" checked />
+        <input type="radio" name="slide" id="slide2" />
+        <input type="radio" name="slide" id="slide3" />
+        <input type="radio" name="slide" id="slide4" />
+        <input type="radio" name="slide" id="slide5" />
+
+        <div class="slide s1">
+          <img
+            src="./imgemgaleria/img1.jpg"
+            alt="Homem desenhado em uma parede amarela"
+          />
+        </div>
+
+        <div class="slide s2">
+          <img
+            src="./imgemgaleria/img2.jpg"
+            alt="3 faces de homens em uma catedral ou igreja"
+          />
+        </div>
+
+        <div class="slide s3">
+          <img
+            src="./imgemgaleria/img3.jpg"
+            alt="homem em pintado em uma parede, paisagem de em um campo"
+          />
+        </div>
+
+        <div class="slide s4">
+          <img src="./imgemgaleria/img4.jpg" alt="rosto de mulher pintado " />
+        </div>
+
+        <div class="slide s5">
+          <img src="./imgemgaleria/img5.jpg" alt="graft feito por artista" />
+        </div>
+      </div>
+      <div class="navegation">
+        <label class="bar" for="slide1"></label>
+        <label class="bar" for="slide2"></label>
+        <label class="bar" for="slide3"></label>
+        <label class="bar" for="slide4"></label>
+        <label class="bar" for="slide5"></label>
+      </div>
+    </div>
+  </body>
+</html>
